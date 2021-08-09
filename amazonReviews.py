@@ -26,6 +26,3 @@ def printTopReviews(soup):
     print("Here {} some Top {} reviews from customers!\n".format(aux,total))
     for i, review in enumerate(reviews,1):
         print(i,review,sep=". ",end="\n\n")
-
-if __name__=="__main__":
-    printTopReviews(soup)
