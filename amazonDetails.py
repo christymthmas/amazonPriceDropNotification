@@ -97,7 +97,7 @@ def printDetails(soup):
     
 ----------------------------------------------------------------------------------------
 """.format(productTitle,brandName,amazonPrice,mrp,youSave,youSavePercentage,availability))
-    return 
+    return True
 
 
 
