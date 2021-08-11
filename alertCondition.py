@@ -45,7 +45,7 @@ def condition(DESIRED_PRICE,url,headers,fromaddr,password,toaddr,yourname):
                 break
         print("\n\nYou'll be notified when price falls via email!\n(NB: To get notified, don't terminate this session)\n")
         
-        sleep(randint(600,900))
+        sleep(randint(600,1000))
         
 
 
