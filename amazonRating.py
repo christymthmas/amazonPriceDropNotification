@@ -27,7 +27,7 @@ def getStarPercentage(soup):
         
 
     #returns 5-1 star percentages as a list
-    # return starTable
+   
     return starsPer
 
 def getOutOfFiveRating(soup):
